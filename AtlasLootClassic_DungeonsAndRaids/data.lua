@@ -790,52 +790,133 @@ data["BlackfathomDeeps"] = {
 	LoadDifficulty = NORMAL_DIFF,
 	LevelRange = GetForVersion({15, 24, 32}, {19, 22, 24}),
 	items = {
-		{ -- BFDGhamoora
-			name = AL["Ghamoo-ra"],
-			npcID = 4887,
-			Level = GetForVersion(25,23),
-			DisplayIDs = {{5027}},
-			AtlasMapBossID = 1,
-			[NORMAL_DIFF] = {
-				{ 1,  6907 }, -- Tortoise Armor
-				{ 3,  6908 }, -- Ghamoo-ra's Bind
-			},
-		},
-		{ -- BFDLadySarevess
-			name = AL["Lady Sarevess"],
-			npcID = 4831,
-			Level = GetForVersion(25,23),
-			DisplayIDs = {{4979}},
-			AtlasMapBossID = 3,
-			[NORMAL_DIFF] = {
-				{ 1,  888 }, -- Naga Battle Gloves
-				{ 3,  3078 }, -- Naga Heartpiercer
-				{ 4,  11121 }, -- Darkwater Talwar
-			},
-		},
-		{ -- BFDGelihast
-			name = AL["Gelihast"],
-			npcID = 6243,
-			Level = GetForVersion(26,24),
-			DisplayIDs = {{1773}},
-			AtlasMapBossID = 5,
-			[NORMAL_DIFF] = {
-				{ 1,  6906 }, -- Algae Fists
-				{ 3,  6905 }, -- Reef Axe
-				{ 5,  1470 }, -- Murloc Skin Bag
-			},
-		},
 		{ -- BFDBaronAquanis
 			name = AL["Baron Aquanis"],
-			npcID = 12876,
+			npcID = 202699,
 			Level = GetForVersion(28,24),
 			DisplayIDs = {{110}},
 			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
 			AtlasMapBossID = 7,
 			[NORMAL_DIFF] = {
-				{ 1,  16782 }, -- Strange Water Globe
+				{ 1,  211852 }, -- Handwraps of Befouled Water
+				{ 2,  209423 }, -- Flowing Scarf
+				{ 3,  209421 }, -- Cord of Aquanis
+				{ 4,  209828 }, -- Sub-Zero Pauldrons
+				{ 5,  209422 }, -- High Tide Choker
+				{ 6,  209825 }, -- Droplet Choker
+				{ 7,  204807 }, -- Fathomblade
+				{ 8,  204804 }, -- Hydraxian Bangles
+				{ 9,  209676 }, -- Shoulderguards of Crushing Depths
+				{ 10,  209590 }, -- Cracked Water Globe
+				{ 11,  209677 }, -- Loop of Swift Currents
 			},
 		},
+		{ -- BFDGhamoora
+			name = AL["Ghamoo-ra"],
+			npcID = 201722,
+			Level = GetForVersion(25,23),
+			DisplayIDs = {{5027}},
+			AtlasMapBossID = 1,
+			[NORMAL_DIFF] = {
+				{ 1,  209436 }, -- Chipped Bite of Serra'kis
+				{ 2,  209830 }, -- Ironhide Arbalest
+				{ 3,  209418 }, -- Adamantine Tortoise Armor
+				{ 4,  209824 }, -- Shimmering Shoulderpads
+				{ 5,  209523 }, -- Shimmering Thresher Cape
+				{ 6,  209432 }, -- Ghamoo-ra's Cinch
+				{ 7,  209678 }, -- Mantle of the Thresher Slayer
+				{ 8,  209424 }, -- Shell Plate Barrier
+				{ 9,  209675 }, -- Clamweave Tunic
+				{ 10,  209524 }, -- Bindings of Serra'kis
+			},
+		},
+		{ -- BFDLadySarevess
+			name = AL["Lady Sarevess"],
+			npcID = 204068,
+			Level = GetForVersion(25,23),
+			DisplayIDs = {{4979}},
+			AtlasMapBossID = 3,
+			[NORMAL_DIFF] = {
+				{ 1,  209566 }, -- Leggings of the Faithful
+				{ 2,  211789 }, -- Artemis Cowl
+				{ 3,  211842 }, -- Rakkamar's Tattered Thinking Cap
+				{ 4,  209680 }, -- Waterproof Scarf
+				{ 5,  209525 }, -- Honed Darkwater Talwar
+				{ 6,  209565 }, -- Band of Deep Places
+				{ 7,  211843 }, -- Mask of Scorn
+				{ 8,  209563 }, -- Naga Heartrender
+				{ 9,  209564 }, -- Guardian's Trident
+				{ 10,  209527 }, -- Naga Battle Gauntlets
+				{ 11,  209822 }, -- Strength of Purpose
+				{ 12,  209679 }, -- Azshari Novice's Shoulderpads
+				{ 13,  209823 }, -- Signet of Beasts
+			},
+		},
+		{ -- BFDOldSerrakis
+			name = AL["Lorgus Jett"],
+			npcID = 207356,
+			Level = GetForVersion(26,24),
+			DisplayIDs = {{1816}},
+			AtlasMapFile = {"CL_BlackfathomDeepsC", "CL_BlackfathomDeepsEnt"},
+			AtlasMapBossID = 9,
+			[NORMAL_DIFF] = {
+				{ 1,  209560 }, -- Hammer of Righteous Judgement
+				{ 2,  209576 }, -- Mind-Expanding Mushroom
+				{ 3,  209818 }, -- Sun-Touched Crescent
+				{ 4,  209581 }, -- Silver Hand Sabatons
+				{ 5,  209578 }, -- Glowing Leather Bands
+				{ 6,  209682 }, -- Sturdy Hood
+				{ 7,  209574 }, -- Discarded Tenets of the Silver Hand
+				{ 8,  209577 }, -- Fist of the Wild
+				{ 9,  209575 }, -- Carved Driftwood Icon
+				{ 10,  209579 }, -- Crashing Thunder
+				{ 12,  211504 }, -- Twilight Avenger's Chain
+				{ 13,  211508 }, -- Twilight Elementalist's Footpads
+				{ 14,  209669 }, -- Twilight Invoker's Shoes
+				{ 15,  211511 }, -- Twilight Slayer's Footpads
+				{ 16,  211506 }, -- Twilight Avenger's Boots
+				{ 17,  211505 }, -- Twilight Avenger's Helm
+				{ 18,  211507 }, -- Twilight Elementalist's Cowl
+				{ 19,  211509 }, -- Twilight Elementalist's Robe
+				{ 20,  209671 }, -- Twilight Invoker's Robes
+				{ 21,  211510 }, -- Twilight Slayer's Cowl
+				{ 22,  209683 }, -- Twilight Invoker's Shawl
+			},
+		},
+		{ -- BFDGelihast
+			name = AL["Gelihast"],
+			npcID = 204921,
+			Level = GetForVersion(26,24),
+			DisplayIDs = {{1773}},
+			AtlasMapBossID = 5,
+			[NORMAL_DIFF] = {
+				{ 1,  209569 }, -- Murloc Hide Kneeboots
+				{ 2,  209559 }, -- Twilight Sage's Walking Stick
+				{ 3,  209568 }, -- Algae Gauntlets
+				{ 4,  209820 }, -- Black Shroud Choker
+				{ 5,  209573 }, -- Wrathful Spire
+				{ 6,  209567 }, -- Coral Reef Axe
+				{ 7,  209571 }, -- Deadlight
+				{ 8,  209670 }, -- Skinwalkers
+				{ 9,  209570 }, -- Tome of Cavern Lore
+				{ 10,  209821 }, -- Ring of Shadowsight
+				{ 11,  211491 }, -- Bottomless Murloc Skin Bag
+				{ 12,  209681 }, -- Black Murloc Egg
+				{ 14,  211506 }, -- Twilight Avenger's Boots
+				{ 15,  209683 }, -- Twilight Invoker's Shawl
+				{ 16,  211504 }, -- Twilight Avenger's Chain
+				{ 17,  211505 }, -- Twilight Avenger's Helm
+				{ 18,  211508 }, -- Twilight Elementalist's Footpads
+				{ 19,  211510 }, -- Twilight Slayer's Cowl
+				{ 20,  211507 }, -- Twilight Elementalist's Cowl
+				{ 21,  211512 }, -- Twilight Slayer's Tunic 
+				{ 22,  211509 }, -- Twilight Elementalist's Robe
+				{ 23,  209671 }, -- Twilight Invoker's Robes
+				{ 24,  211511 }, -- Twilight Slayer's Footpads
+				{ 25,  209669 }, -- Twilight Invoker's Shoes
+			},
+		},
+		
 		{ -- BFDTwilightLordKelris
 			name = AL["Twilight Lord Kelris"],
 			npcID = 4832,
@@ -844,55 +925,74 @@ data["BlackfathomDeeps"] = {
 			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
 			AtlasMapBossID = 8,
 			[NORMAL_DIFF] = {
-				{ 1,  1155 }, -- Rod of the Sleepwalker
-				{ 3,  6903 }, -- Gaze Dreamer Pants
+				{ 1,  209694 }, -- Blackfathom Ritual Dagger
+				{ 2,  209672 }, -- Black Fingerless Gloves
+				{ 3,  209686 }, -- Jagged Bone Necklace
+				{ 4,  209667 }, -- Gaze Dreamer Leggings
+				{ 5,  209668 }, -- Signet of the Twilight Lord
+				{ 6,  211455 }, -- Slick Fingerless Gloves
+				{ 7,  209817 }, -- Voidwalker Brooch
+				{ 8,  209674 }, -- Phoenix Ignition
+				{ 9,  211458 }, -- Tome of Shadow Warding
+				{ 10,  211457 }, -- Twilight Defender's Girdle
+				{ 11,  211492 }, -- Kelris's Satchel
+				{ 12,  209673 }, -- Glowing Fetish Amulet
+				{ 14,  211507 }, -- Twilight Elementalist's Cowl
+				{ 15,  211510 }, -- Twilight Slayer's Cowl
+				{ 16,  211511 }, -- Twilight Slayer's Footpads 
+				{ 17,  211512 }, -- Twilight Slayer's Tunic
 			},
 		},
-		{ -- BFDOldSerrakis
-			name = AL["Old Serra'kis"],
-			npcID = 4830,
-			Level = GetForVersion(26,24),
-			DisplayIDs = {{1816}},
-			AtlasMapFile = {"CL_BlackfathomDeepsC", "CL_BlackfathomDeepsEnt"},
-			AtlasMapBossID = 9,
-			[NORMAL_DIFF] = {
-				{ 1,  6901 }, -- Glowing Thresher Cape
-				{ 2,  6904 }, -- Bite of Serra'kis
-				{ 4,  6902 }, -- Bands of Serra'kis
-			},
-		},
+		
 		{ -- BFDAkumai
 			name = AL["Aku'mai"],
-			npcID = 4829,
+			npcID = 213334,
 			Level = GetForVersion(28,24),
 			DisplayIDs = {{2837}},
 			AtlasMapBossID = 10,
 			AtlasMapFile = {"CL_BlackfathomDeepsB", "CL_BlackfathomDeepsEnt"},
 			[NORMAL_DIFF] = {
-				{ 1,  6911 }, -- Moss Cinch
-				{ 2,  6910 }, -- Leech Pants
-				{ 3,  6909 }, -- Strike of the Hydra
+				{ 1,  209693 }, -- Perfect Blackfathom Pearl
+				{ 2,  211452 }, -- Perfect Blackfathom Pearl
+				{ 3,  209692 }, -- Sentinel Pauldrons
+				{ 4,  211456 }, -- Dagger of Willing Sacrifice
+				{ 5,  209685 }, -- Ancient Moss Cinch
+				{ 6,  209688 }, -- Bael Modan Blunderbuss
+				{ 7,  209687 }, -- Hydra Hide Cuirass
+				{ 8,  209690 }, -- Shadowscale Coif
+				{ 9,  209691 }, -- Vampiric Boot Knife
+				{ 10,  209580 }, -- Gusting Wind
+				{ 11,  209684 }, -- Soul Leech Pants
+				{ 12,  209534 }, -- Azshari Arbalest
+				{ 13,  209562 }, -- Deadly Strike of the Hydra
+				{ 15,  211508 }, -- Twilight Elementalist's Footpads
+				{ 16,  211510 }, -- Twilight Slayer's Cowl
+				{ 17,  211511 }, -- Twilight Slayer's Footpads
 			},
 		},
 		{ -- BFDTrash
 			name = AL["Trash"],
 			ExtraList = true,
 			[NORMAL_DIFF] = {
-				{ 1,  1486 }, -- Tree Bark Jacket
-				{ 2,  3416 }, -- Martyr's Chain
-				{ 3,  1491 }, -- Ring of Precision
-				{ 4,  3414 }, -- Crested Scepter
-				{ 5,  1454 }, -- Axe of the Enforcer
-				{ 6,  1481 }, -- Grimclaw
-				{ 7,  2567 }, -- Evocator's Blade
-				{ 8,  3413 }, -- Doomspike
-				{ 9,  3417 }, -- Onyx Claymore
-				{ 10, 3415 }, -- Staff of the Friar
-				{ 11, 2271 }, -- Staff of the Blessed Seer
+				{ 1, "INV_Box_01", nil, AL["Kwonko is the best druid"], nil },
+				{ 2, "INV_Box_01", nil, AL["Idk if this trash still drops stuff"], nil },
+				{ 3,  1486 }, -- Tree Bark Jacket
+				{ 4,  3416 }, -- Martyr's Chain
+				{ 5,  1491 }, -- Ring of Precision
+				{ 6,  3414 }, -- Crested Scepter
+				{ 7,  1454 }, -- Axe of the Enforcer
+				{ 8,  1481 }, -- Grimclaw
+				{ 9,  2567 }, -- Evocator's Blade
+				{ 10,  3413 }, -- Doomspike
+				{ 11,  3417 }, -- Onyx Claymore
+				{ 12, 3415 }, -- Staff of the Friar
+				{ 13, 2271 }, -- Staff of the Blessed Seer
 			},
 		},
 	},
 }
+
+
 
 data["TheStockade"] = {
 	MapID = 717,
