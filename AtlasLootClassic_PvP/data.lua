@@ -953,6 +953,7 @@ data["Insignia"] = {
 		PVP_RANKS,
 	},
 }
+
 data["SoD Level 25"] = {
 	name = AL["SoD Level 25"],
 	ContentType = SOD_CONTENT,
@@ -991,7 +992,6 @@ data["SoD Level 25"] = {
 		PVP_RANKS,
 	},
 }
-
 
 data["SoD Level 40"] = {
 	name = AL["SoD Level 40"],

@@ -471,6 +471,7 @@ data["WintersaberTrainers"] = {
 		},
 	},
 }
+
 data["AzerothCommerceAuthority"] = {
 	FactionID = 2586,
 	ContentType = FACTIONS_ALLI_CONTENT,
