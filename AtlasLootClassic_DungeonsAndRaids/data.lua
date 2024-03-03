@@ -7054,6 +7054,7 @@ data["Naxxramas"] = {
 		T3_SET,
 	},
 }
+
 data["BlackfathomDeeps2"] = {
 	MapID = 719,
 	InstanceID = 48,
@@ -7278,6 +7279,7 @@ data["BlackfathomDeeps2"] = {
 		},
 	},
 }
+
 data["Gnomeregan2"] = {
 	MapID = 721,
 	InstanceID = 90,
