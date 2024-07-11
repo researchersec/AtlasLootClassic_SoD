@@ -5410,7 +5410,7 @@ data["Stratholme"] = {
 				{ 27, 226760 }, -- Dreadmist Leggings
 				{ 28, 226705 }, -- Shadowcraft Pants
 				{ 29, 226709 }, -- Wildheart Kilt
-				{ 16, "INV_Box_01", nil, AL["Continued-->"], nil },
+				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
 				{ 102, 226719 }, -- Beaststalker's Pants
 				{ 103, 226750 }, -- Kilt of Elements
 				{ 104, 226736 }, -- Lightforge Legplates
