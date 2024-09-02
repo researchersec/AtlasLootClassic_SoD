@@ -546,6 +546,8 @@ TOKEN_DATA.CLASSIC = {
 	[228248] = { 228463, type = 9 }, -- Earthshaker (Molten)
 	[228252] = { 228519, type = 9 }, -- Striker's Mark (Molten)
 	[228269] = { 228517, type = 9 }, -- Azuresong Mageblade (Molten)
+	[228271] = { 228922, type = 9 }, -- Staff of Dominance (Molten)
+	[228278] = { 229382, type = 9 }, -- Hyperthermically Insulated Lava Dredger (Molten)
 	[227536] = {ICONS.MAGE, 226557, 226568, 0,ICONS.PRIEST, 226571, 226586, 0, ICONS.WARLOCK, 226554,216918, type = 5}, -- Incandescent Boots
 	[227765] = {ICONS.DRUID, 226645, 226652, 226663, 226673, 0, ICONS.WARRIOR, 226487, 226496, 0, ICONS.ROGUE, 226443, 226477, type = 5}, -- Scorched Core Boots
 	[227763] = {ICONS.DRUID, 226646, 226651, 226666, 226671, 0, ICONS.WARRIOR, 226490, 226493, 0, ICONS.ROGUE, 226445, 226479, type = 5}, -- Scorched Core Leggings

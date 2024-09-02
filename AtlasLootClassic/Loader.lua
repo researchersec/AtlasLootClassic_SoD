@@ -32,6 +32,13 @@ local AtlasMapsModuleLoaded = false
 -- A list of officiel AtlasLoot modules
 local ATLASLOOT_MODULE_LIST = {
 	{
+		addonName = "AtlasLootClassic_SoD",
+		--icon = "Interface\\ICONS\\Inv_ChampionsOfAzeroth",
+		name = AL["SoD Content"],
+		tt_title = nil,		-- ToolTip title
+		tt_text = nil,		-- ToolTip text
+	},
+	{
 		addonName = "AtlasLootClassic_DungeonsAndRaids",
 		--icon = "Interface\\ICONS\\Inv_ChampionsOfAzeroth",
 		name = AL["Dungeons and Raids"],

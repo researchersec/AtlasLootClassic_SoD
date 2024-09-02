@@ -66,7 +66,7 @@ local PRICE_INFO_LIST = {
 	["tb22"] 	= { itemID = 16983 }, -- Molten helm
 	["tb23"] 	= { itemID = 16982 }, -- Corehound Boots
 	["tb24"] 	= { itemID = 17014 }, -- Dark Iron Bracers
-	
+	["TUR"]     = { itemID = 226404 }, -- Tarnished Undermine Real
 	-- others
 	["money"] 			= { func = GetCoinTextureString },
 
@@ -255,6 +255,45 @@ VENDOR_PRICES_RAW.CLASSIC = {
 	 [227821] = "tb22:1:firelandsember:15:lavacore:1",
 	 [227822] = "tb23:1:firelandsember:15:lavacore:1",
 	 [227820] = "tb24:1:firelandsember:10:fierycore:1",
+	 [226405] = "TUR:5",
+	 [220597] = "TUR:50",
+	 [220598] = "TUR:50",
+	 [220599] = "TUR:50",
+	 [227279] = "TUR:50",
+	 [227280] = "TUR:50",
+	 [227282] = "TUR:50",
+	 [227284] = "TUR:50",
+	 [227990] = "TUR:50",
+	 [228121] = "TUR:50",
+	 [228168] = "TUR:50",
+	 [228169] = "TUR:50",
+	 [228170] = "TUR:50",
+	 [228171] = "TUR:25",
+	 [228173] = "TUR:15",
+	 [228174] = "TUR:15",
+	 [228175] = "TUR:15",
+	 [228176] = "TUR:15",
+	 [228177] = "TUR:15",
+	 [228178] = "TUR:15",
+	 [228179] = "TUR:15",
+	 [228180] = "TUR:15",
+	 [228181] = "TUR:15",
+	 [228182] = "TUR:15",
+	 [228183] = "TUR:15",
+	 [228184] = "TUR:50",
+	 [228185] = "TUR:50",
+	 [228186] = "TUR:25",
+	 [228187] = "TUR:50",
+	 [228189] = "TUR:25",
+	 [228432] = "TUR:50",
+	 [13518] = "TUR:50",
+	 [13519] = "TUR:50",
+	 [13520] = "TUR:50",
+	 [13521] = "TUR:50",
+	 [13522] = "TUR:50",
+	 [17011] = "TUR:15",
+	 [17012] = "TUR:15",
+	 [17013] = "TUR:10",
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then

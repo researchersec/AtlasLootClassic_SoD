@@ -1475,8 +1475,8 @@ PROFESSION_DATA.CLASSIC = {
 	[461677] = {227878,3,270,300,320,{8170,15412,14341},{20,25,1}}, -- Living Green Dragonscale Gauntlets
 	[461720] = {227879,3,260,280,300,{8170,15412,14341},{20,25,2}}, -- Living Green Dragonscale Breastplate
 	[461690] = {227854,3,300,320,340,{8170,7082,12753,12809,15407,14341},{30,12,4,8,4,8}}, -- Mastercrafted Shifting Cloak
-	[461722] = {227848,3,290,310,330,{8170,15417,14341},{30,8,1}}, -- Devilcore Gauntlets
-	[461724] = {227847,3,300,320,340,{8170,15417,15407,14341},{30,14,1,1}}, -- Devilcore Leggings
+	[461722] = {227848,3,290,310,330,{8170,15417,14341,7078},{30,8,1,8}}, -- Devilcore Gauntlets
+	[461724] = {227847,3,300,320,340,{8170,15417,15407,14341,7078},{30,20,1,1,10}}, -- Devilcore Leggings
 	[461663] = {227866,3,300,320,340,{8170,7078,7076,14341},{10,1,1,2}}, -- Masterwork Volcanic Shoulders
 	[461665] = {227867,3,270,290,310,{8170,7078,7076,14341},{6,1,1,1}}, -- Masterwork Volcanic Leggings
 	[461661] = {227868,3,285,305,325,{8170,7078,7076,14341},{8,1,1,1}}, -- Masterwork Volcanic Breastplate
@@ -1489,6 +1489,7 @@ PROFESSION_DATA.CLASSIC = {
 	[462282] = {228476,8,300,315,345,{14048,9210,14342,7080,7078,14344,14341},{16,10,10,12,12,6,6}}, -- Embroidered Belt of the Archmage
 	[461657] = {227852,3,300,320,340,{8170,15416,12810,15407,14341},{40,60,4,1,2}}, -- Hardened Black Dragonscale Leggings
 	[461727] = {227844,8,300,315,345,{14046,15407},{1,1}}, -- Leather-Reinforced Runecloth Bag
+	[463866] = {228979,10,290,305,320,{16204},{1}}, -- Sigil of Flowing Waters
 }
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
     PROFESSION_DATA.BCC = {
