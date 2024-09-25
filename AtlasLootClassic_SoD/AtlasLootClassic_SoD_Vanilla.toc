@@ -1,10 +1,10 @@
-## Interface: 11503
+## Interface: 11504
 ## Author: Kwonko
 ## Version: v3.2.0
 ## Dependencies: AtlasLootClassic
 ## LoadOnDemand: 1
 
-## Title: AtlasLootClassic |cFF0099FF[Collections]|r
+## Title: AtlasLootClassic |cFF0099FF[SoD]|r
 ## Title-deDE: AtlasLootClassic |cFF0099FF[Sammlungen]|r
 ## Title-esES: AtlasLootClassic |cFF0099FF[Colecciones]|r
 ## Title-esMX: AtlasLootClassic |cFF0099FF[Colecciones]|r

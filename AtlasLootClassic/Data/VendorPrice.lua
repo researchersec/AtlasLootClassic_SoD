@@ -294,6 +294,13 @@ VENDOR_PRICES_RAW.CLASSIC = {
 	 [17011] = "TUR:15",
 	 [17012] = "TUR:15",
 	 [17013] = "TUR:10",
+	 [7078] = "firelandsember:30",
+	 [7080] = "firelandsember:30",
+	 [7082] = "firelandsember:30",
+	 [7076] = "firelandsember:30",
+	 [11382] = "firelandsember:30",
+	 [231642] = "emeraldchip:5",
+	 [231644] = "emeraldchip:5",
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then

@@ -64,6 +64,266 @@ end
 ]]--
 
 local AD_INSIGNIA_FORMAT_BLUE, AD_INSIGNIA_FORMAT_EPIC = "|cff0070dd%d|r",  "|cffa335ee%d|r" -- format(AD_INSIGNIA_FORMAT, 30)
+
+data["Emerald Wardens"] = {
+	FactionID = 2641,
+	ContentType = FACTIONS3_CONTENT,
+	LoadDifficulty = LOAD_DIFF,
+	items = {
+		{ -- Exalted
+			name = ALIL["Exalted"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2641rep8" },
+				{ 2, 221442 }, -- Roar of the Guardian
+				{ 3, 220621 }, -- Nightmare Resonance Crystal
+				{ 4, 221440 }, -- Roar of the Dream
+				{ 5, 221443 }, -- Roar of the Grove
+			},
+		},
+		{ -- Revered
+			name = ALIL["Revered"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2641rep7" },
+				{ 2, 221441 }, -- Warden of the Dream
+				{ 3, 220649 }, -- Merithra's Inheritence
+				{ 4, 221439 }, -- Armor of the Emerald Slumber
+			},
+		},
+		{ -- Honored
+			name = ALIL["Honored"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2641rep6" },
+				{ 2, 221391 }, --Emerald Scalemail Helmet
+				{ 3, 221390 }, --Emerald Scalemail Breastplate
+				{ 4, 221388 }, --Emerald Scalemail Leggings
+				{ 5, 221402 }, --Emerald Chain Helmet
+				{ 6, 221404 }, --Emerald Chain Breastplate
+				{ 7, 221401 }, --Emerald Chain Leggings
+				{ 8, 221397 }, --Emerald Laden Helmet
+				{ 9, 221395 }, --Emerald Laden Breastplate
+				{ 10, 221398 }, --Emerald Laden Leggings
+				{ 12, 213407 }, -- Catnip
+				{ 13, 221193 }, --Emerald Ring
+				{ 14, 224006 }, --Emerald Ring
+				{ 16, 221376 }, --Emerald Dream Helm
+				{ 17, 221380 }, --Emerald Dream Breastplate
+				{ 18, 221377 }, --Emerald Dream Legplates
+				{ 19, 221384 }, --Emerald Encrusted Helmet
+				{ 20, 221382 }, --Emerald Encrusted Battleplate
+				{ 21, 221385 }, --Emerald Encrusted Legplates
+				{ 23, 221425 }, --Emerald Enchanted Circlet
+				{ 24, 221430 }, --Emerald Enchanted Robes
+				{ 25, 221429 }, --Emerald Enchanted Pants
+				{ 26, 221437 }, --Emerald Woven Circlet
+				{ 27, 221434 }, --Emerald Woven Robes
+				{ 28, 221435 }, --Emerald Woven Pants
+				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
+				{ 101, 221408 }, --Emerald Leather Helm
+				{ 102, 221406 }, --Emerald Leather Vest
+				{ 103, 221410 }, --Emerald Leather Pants
+				{ 104, 221413 }, --Emerald Dreamkeeper Helm
+				{ 105, 221417 }, --Emerald Dreamkeeper Chest
+				{ 106, 221414 }, --Emerald Dreamkeeper Pants
+				{ 107, 221422 }, --Emerald Watcher Helm
+				{ 108, 221419 }, --Emerald Watcher Vest
+				{ 109, 221423 }, --Emerald Watcher Leggings
+			},
+		},
+		{ -- Friendly
+			name = ALIL["Friendly"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2641rep5" },
+				{ 2, 221392 }, --Emerald Scalemail Shoudlers
+				{ 3, 221389 }, --Emerald Scalemail Gauntlets
+				{ 4, 221393 }, --Emerald Scalemail Boots
+				{ 5, 221399 }, --Emerald Laden Shoulders
+				{ 6, 221396 }, --Emerald Laden Gauntlets
+				{ 7, 221394 }, --Emerald Laden Boots
+				{ 8, 221400 }, --Emerald Chain Shoudlers
+				{ 9, 221403 }, --Emerald Chain Gauntlets
+				{ 10, 221405 }, --Emerald Chain Boots
+				{ 12, 221386 }, --Emerald Encrusted Spaulders
+				{ 13, 221383 }, --Emerald Encrusted Handguards
+				{ 14, 221387 }, --Emerald Encrusted Plate Boots
+				{ 16, 221369 }, -- Nightmare Siphon
+				{ 17, 221374 }, -- Anguish of the Dream
+				{ 18, 221362 }, -- Weapon Cleaning Cloth
+				{ 19, 223648 }, -- Dream Imbued Arrow
+				{ 20, 224005 }, -- Emerald Ring
+				{ 21, 224004 }, -- Emerald Ring
+				{ 23, 221381 }, --Emerald Dream Pauldrons
+				{ 24, 221378 }, --Emerald Dream Gauntlets
+				{ 25, 221379 }, --Emerald Dream Sabatons
+				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
+				{ 101, 221431 }, --Emerald Enchanted Shoulders
+				{ 102, 221427 }, --Emerald Enchanted Gloves
+				{ 103, 221426 }, --Emerald Enchanted Boots
+				{ 104, 221432 }, --Emerald Woven Mantle
+				{ 105, 221436 }, --Emerald Woven Gloves
+				{ 106, 221438 }, --Emerald Woven Boots
+				{ 108, 221411 }, --Emerald Leather Shoulders
+				{ 109, 221407 }, --Emerald Leather Gloves
+				{ 110, 221409 }, --Emerald Leather Sabatons
+				{ 111, 221416 }, --Emerald Dreamkeeper Shoulders
+				{ 112, 221412 }, --Emerald Dreamkeeper Gloves
+				{ 113, 221415 }, --Emerald Dreamkeeper Boots
+				{ 116, 221424 }, --Emerald Watcher Shoulders
+				{ 117, 221421 }, --Emerald Watcher Gloves
+				{ 118, 221420 }, --Emerald Watcher Boots
+			},
+		},
+		{ -- Neutral
+			name = ALIL["Neutral"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2641rep4" },
+				{ 2, 212568 }, -- Wolfshead Trophy
+				{ 3, 223912 }, -- Purification Potion
+				{ 4, 223913 }, -- Major Healing Potion
+				{ 5, 223914 }, -- Greater Healing Potion
+				{ 7, 221480 }, -- Spell Notes: Molten Armor
+				{ 8, 221481 }, -- 	Nihilist Epiphany
+				{ 9, 221482 }, -- 	Rune of Affliction
+				{ 10, 221483 }, -- 	Rune of Burn
+				{ 11, 221511 }, -- 	Rune of the Protector
+				{ 12, 221512 }, -- 	Rune of Alacrity
+				{ 13, 221515 }, -- 	Rune of Detonation
+				{ 14, 221517 }, -- 	Rune of Bloodshed
+				{ 15, 223288 }, -- 	Rune of the Hammer
+			},
+		},
+	},
+}
+
+data["Durotar Supply And Logistics"] = {
+	FactionID = 2587,
+	ContentType = FACTIONS3_CONTENT,
+	LoadDifficulty = LOAD_DIFF,
+	items = {
+		{ -- Exalted
+			name = ALIL["Exalted"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2587rep8" },
+				{ 2, 223164 }, -- Curiosity Cowl
+				{ 3, 223169 }, -- Tenacity Cap
+				{ 4, 223172 }, -- Tenacity Chain
+				{ 5, 223186 }, -- Supply Expediter
+				{ 6, 223162 }, -- Handy Courier Haversack
+				{ 7, 220639 }, -- Lledra's Inanimator
+			},
+		},
+		{ -- Revered
+			name = ALIL["Revered"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2587rep7" },
+				{ 2, 217399 }, -- Recipe: Lesser Arcane Elixir
+				{ 3, 219021 }, -- Hefty Courier Pack
+				{ 4, 223161 }, -- Empty Supply Crate
+				{ 5, 219135 }, -- Curiosity Pendant
+				{ 6, 219136 }, -- Tenacity Pendant
+				{ 7, 219137 }, -- Initiative Pendant
+			},
+		},
+		{ -- Honored
+			name = ALIL["Honored"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2587rep6" },
+				{ 2, 211384 }, -- Sturdy Courier Bag
+				{ 3, 210779 }, -- Plans: Mantle of the Second War
+				{ 4, 211247 }, -- Pattern: Phoenix Bindings
+				{ 5, 212230 }, -- Schematic: Soul Vessel
+				{ 6, 223160 }, -- Bargain Bush
+				{ 7, 219022 }, -- Hauler's Ring
+				{ 8, 219023 }, -- Clerk's Ring
+				{ 9, 219024 }, -- Messenger's Ring
+			},
+		},
+		{ -- Friendly
+			name = ALIL["Friendly"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2587rep5" },
+				{ 2, 211382 }, -- Small Courier Satchel
+				{ 3, 212588 }, -- Provisioner's Gloves
+				{ 4, 212589 }, -- Courier Treads
+				{ 5, 212590 }, -- Hoist Strap
+				{ 7, 211386 }, -- Spell Notes: Arcane Surge
+				{ 8, 211387 }, -- Rune of Beckoning Light
+				{ 9, 211392 }, -- Rune of Everlasting Affliction
+				{ 10, 211391 }, -- Rune of Healing Rain
+				{ 11, 211385 }, -- Rune of Serpent Spread
+				{ 12, 211393 }, -- Rune of Single-Minded Fury
+				{ 13, 206992 }, -- Rune of Skull Bash
+				{ 14, 211390 }, -- Rune of Teasing
+				{ 15, 205950 }, -- Tenebrous Epiphany
+			},
+		},
+	},
+}
+
+data["Azeroth"] = {
+	FactionID = 2586,
+	ContentType = FACTIONS3_CONTENT,
+	LoadDifficulty = LOAD_DIFF,
+	items = {
+		{ -- Exalted
+			name = ALIL["Exalted"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2586rep8" },
+				{ 2, 223164 }, -- Curiosity Cowl
+				{ 3, 223169 }, -- Tenacity Cap
+				{ 4, 223172 }, -- Tenacity Chain
+				{ 5, 223186 }, -- Supply Expediter
+				{ 6, 223162 }, -- Handy Courier Haversack
+				{ 7, 220639 }, -- Lledra's Inanimator
+			},
+		},
+		{ -- Revered
+			name = ALIL["Revered"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2586rep7" },
+				{ 2, 217399 }, -- Recipe: Lesser Arcane Elixir
+				{ 3, 219021 }, -- Hefty Courier Pack
+				{ 4, 223161 }, -- Empty Supply Crate
+				{ 5, 219135 }, -- Curiosity Pendant
+				{ 6, 219136 }, -- Tenacity Pendant
+				{ 7, 219137 }, -- Initiative Pendant
+			},
+		},
+		{ -- Honored
+			name = ALIL["Honored"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2586rep6" },
+				{ 2, 211384 }, -- Sturdy Courier Bag
+				{ 3, 210779 }, -- Plans: Mantle of the Second War
+				{ 4, 211247 }, -- Pattern: Phoenix Bindings
+				{ 5, 212230 }, -- Schematic: Soul Vessel
+				{ 6, 223160 }, -- Bargain Bush
+				{ 7, 219022 }, -- Hauler's Ring
+				{ 8, 219023 }, -- Clerk's Ring
+				{ 9, 219024 }, -- Messenger's Ring
+			},
+		},
+		{ -- Friendly
+			name = ALIL["Friendly"],
+			[NORMAL_DIFF] = {
+				{ 1, "f2586rep5" },
+				{ 2, 211382 }, -- Small Courier Satchel
+				{ 3, 212588 }, -- Provisioner's Gloves
+				{ 4, 212589 }, -- Courier Treads
+				{ 5, 212590 }, -- Hoist Strap
+				{ 7, 211386 }, -- Spell Notes: Arcane Surge
+				{ 8, 211387 }, -- Rune of Beckoning Light
+				{ 9, 211392 }, -- Rune of Everlasting Affliction
+				{ 10, 211391 }, -- Rune of Healing Rain
+				{ 11, 211385 }, -- Rune of Serpent Spread
+				{ 12, 211393 }, -- Rune of Single-Minded Fury
+				{ 13, 206992 }, -- Rune of Skull Bash
+				{ 14, 211390 }, -- Rune of Teasing
+				{ 15, 205950 }, -- Tenebrous Epiphany
+			},
+		},
+	},
+}
+
 data["ArgentDawn"] = {
 	FactionID = 529,
 	ContentType = FACTIONS_CONTENT,
@@ -76,8 +336,6 @@ data["ArgentDawn"] = {
 				{ 2, 18182 }, -- Chromatic Mantle of the Dawn
 				{ 4,  22523, 22524, [ATLASLOOT_IT_AMOUNT1] = format(AD_INSIGNIA_FORMAT_EPIC, 27), [ATLASLOOT_IT_AMOUNT2] = format(AD_INSIGNIA_FORMAT_EPIC, 27) }, -- Insignia of the Dawn / Crusade
 				{ 5,  22523, 22524, [ATLASLOOT_IT_AMOUNT1] = format(AD_INSIGNIA_FORMAT_BLUE, 6), [ATLASLOOT_IT_AMOUNT2] = format(AD_INSIGNIA_FORMAT_BLUE, 6) }, -- Insignia of the Dawn / Crusade
-				{ 16, "INV_Box_01", nil, AL["SoD Exclusive"], nil },
-				{ 17, 227819}, -- Blessed Flame Mantle of the Dawn
 			},
 		},
 		{ -- Revered
@@ -103,6 +361,7 @@ data["ArgentDawn"] = {
 				{ 21, 227818 }, -- Glowing Mantle of the Dawn
 				{ 22, 227817 }, -- Radiant Gloves of the Dawn
 				{ 23, 227859 }, -- Shimmering Dawnbringer Shoulders
+				{ 25, 227819}, -- Blessed Flame Mantle of the Dawn
 			},
 		},
 		{ -- Honored
