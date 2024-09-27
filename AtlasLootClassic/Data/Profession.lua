@@ -1490,6 +1490,7 @@ PROFESSION_DATA.CLASSIC = {
 	[461657] = {227852,3,300,320,340,{8170,15416,12810,15407,14341},{40,60,4,1,2}}, -- Hardened Black Dragonscale Leggings
 	[461727] = {227844,8,300,315,345,{14046,15407},{1,1}}, -- Leather-Reinforced Runecloth Bag
 	[463866] = {228979,10,290,305,320,{16204},{1}}, -- Sigil of Flowing Waters
+	[463869] = {228981,10,275,285,305,{16204,4625,8925},{2,1,1}}, -- Conductive Shield Coating
 }
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
     PROFESSION_DATA.BCC = {

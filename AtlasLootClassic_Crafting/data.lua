@@ -667,6 +667,7 @@ data["Enchanting"] = {
 				{ 11, 448624 }, -- Scroll of Spatial Mending
 				{ 13, "INV_Box_01", nil, AL["Phase 4"], nil },
 				{ 14, 463866 }, -- Sigil of Flowing Waters
+				{ 15, 463869 }, --Conductive Shield Coating
 				{ 16, "INV_Box_01", nil, AL["Updated in SoD"], nil },
 				{ 17, 439134 }, -- Greater Mystic Wand
 			}

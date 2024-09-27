@@ -1010,6 +1010,7 @@ RECIPE_DATA.CLASSIC = {
 	[228319] = {3,300,461754}, -- Pattern: Girdle of Arcane Insight
 	[228301] = {3,300,461706}, -- Pattern: Swift Flight Vambraces
 	[228978] = {10,290,463866}, -- Enchanted Sigil: Flowing Waters
+	[228980] = {10,290,463869}, -- Formula: Conductive Shield Coating
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then

@@ -6323,7 +6323,15 @@ data["WorldBosses2"] = {
 				{ 2, 231716 }, -- Primeval Belt
 				{ 3, 231708 }, -- Draconian Belt
 				{ 5, 19018 }, -- Dormant Wind Kissed Blade
-				{ 15, "INV_Box_01", nil, AL["Loot unconfirmed"], nil },
+				{ 16, 231782 }, -- Crown of the Successor
+				{ 17, 231783 }, -- Drape of the Windlord
+				{ 18, 231785 }, -- Echoes of Betrayal
+				{ 19, 231815 }, -- Fleshrend
+				{ 20, 231784 }, -- Lighhtning's Call
+				{ 21, 231753 }, -- Skywall's Solace
+				{ 22, 231777 }, -- Crystallized Qiraji Limb
+				{ 23, 231387 }, -- Stormwrath, Snactified Shortblade of the Galefinder
+				{ 24, 231781 }, -- Soul of Thunder
 			},
 		},
 	},
@@ -6428,7 +6436,16 @@ data["Zul'Gurub"] = {
 			DisplayIDs = {{15219}},
 			AtlasMapBossID = 1,
 			[NORMAL_DIFF] = {
-				{ 1, "INV_Box_01", nil, AL["Loot unconfirmed"], nil },
+				{ 1,  19721 }, -- Primal Hakkari Shawl
+				{ 2,  19724 }, -- Primal Hakkari Aegis
+				{ 3,  19723 }, -- Primal Hakkari Kossack
+				{ 4,  19722 }, -- Primal Hakkari Tabard
+				{ 5,  19717 }, -- Primal Hakkari Armsplint
+				{ 6,  19716 }, -- Primal Hakkari Bindings
+				{ 7,  19718 }, -- Primal Hakkari Stanchion
+				{ 8,  19719 }, -- Primal Hakkari Girdle
+				{ 9,  19720 }, -- Primal Hakkari Sash
+				{ 15, "INV_Box_01", nil, AL["Loot unconfirmed"], nil },
 				{ 16, 230911 }, -- Jeklik's Crusher
 				{ 18, 230913 }, -- Jeklik's Opaline Talisman
 				{ 19, 230912 }, -- Animist's Spaulders
@@ -6445,6 +6462,15 @@ data["Zul'Gurub"] = {
 			DisplayIDs = {{15217}},
 			AtlasMapBossID = 2,
 			[NORMAL_DIFF] = {
+				{ 1,  19721 }, -- Primal Hakkari Shawl
+				{ 2,  19724 }, -- Primal Hakkari Aegis
+				{ 3,  19723 }, -- Primal Hakkari Kossack
+				{ 4,  19722 }, -- Primal Hakkari Tabard
+				{ 5,  19717 }, -- Primal Hakkari Armsplint
+				{ 6,  19716 }, -- Primal Hakkari Bindings
+				{ 7,  19718 }, -- Primal Hakkari Stanchion
+				{ 8,  19719 }, -- Primal Hakkari Girdle
+				{ 9,  19720 }, -- Primal Hakkari Sash
 				{ 16, 230864 }, -- Runed Bloodstained Hauberk
 				{ 17, 230865 }, -- Fang of Venoxis
 				{ 19, 232311 }, -- Zulian Tigerhide Cloak
@@ -6460,6 +6486,15 @@ data["Zul'Gurub"] = {
 			DisplayIDs = {{15220}},
 			AtlasMapBossID = 4,
 			[NORMAL_DIFF] = {
+				{ 1,  19721 }, -- Primal Hakkari Shawl
+				{ 2,  19724 }, -- Primal Hakkari Aegis
+				{ 3,  19723 }, -- Primal Hakkari Kossack
+				{ 4,  19722 }, -- Primal Hakkari Tabard
+				{ 5,  19717 }, -- Primal Hakkari Armsplint
+				{ 6,  19716 }, -- Primal Hakkari Bindings
+				{ 7,  19718 }, -- Primal Hakkari Stanchion
+				{ 8,  19719 }, -- Primal Hakkari Girdle
+				{ 9,  19720 }, -- Primal Hakkari Sash
 				{ 16, 230917 }, -- Flowing Ritual Robes
 				{ 17, 230918 }, -- Mar'li's Touch
 				{ 19, 230922 }, -- Talisman of Protection
@@ -6475,6 +6510,15 @@ data["Zul'Gurub"] = {
 			DisplayIDs = {{11288}},
 			AtlasMapBossID = 5,
 			[NORMAL_DIFF] = {
+				{ 1,  19721 }, -- Primal Hakkari Shawl
+				{ 2,  19724 }, -- Primal Hakkari Aegis
+				{ 3,  19723 }, -- Primal Hakkari Kossack
+				{ 4,  19722 }, -- Primal Hakkari Tabard
+				{ 5,  19717 }, -- Primal Hakkari Armsplint
+				{ 6,  19716 }, -- Primal Hakkari Bindings
+				{ 7,  19718 }, -- Primal Hakkari Stanchion
+				{ 8,  19719 }, -- Primal Hakkari Girdle
+				{ 9,  19720 }, -- Primal Hakkari Sash
 				{ 16, 19872 }, -- Swift Razzashi Raptor
 				{ 17, 230993 }, -- Mandokir's Sting
 				{ 18, 230989 }, -- Bloodlord's Defender
@@ -6559,6 +6603,15 @@ data["Zul'Gurub"] = {
 			DisplayIDs = {{15216}},
 			AtlasMapBossID = 8,
 			[NORMAL_DIFF] = {
+				{ 1,  19721 }, -- Primal Hakkari Shawl
+				{ 2,  19724 }, -- Primal Hakkari Aegis
+				{ 3,  19723 }, -- Primal Hakkari Kossack
+				{ 4,  19722 }, -- Primal Hakkari Tabard
+				{ 5,  19717 }, -- Primal Hakkari Armsplint
+				{ 6,  19716 }, -- Primal Hakkari Bindings
+				{ 7,  19718 }, -- Primal Hakkari Stanchion
+				{ 8,  19719 }, -- Primal Hakkari Girdle
+				{ 9,  19720 }, -- Primal Hakkari Sash
 				{ 16, 19902 }, -- Swift Zulian Tiger
 				{ 17, 230923 }, -- Betrayer's Boots
 				{ 18, 230925 }, -- Thekal's Grasp
@@ -6576,6 +6629,15 @@ data["Zul'Gurub"] = {
 			DisplayIDs = {{15218}},
 			AtlasMapBossID = 9,
 			[NORMAL_DIFF] = {
+				{ 1,  19721 }, -- Primal Hakkari Shawl
+				{ 2,  19724 }, -- Primal Hakkari Aegis
+				{ 3,  19723 }, -- Primal Hakkari Kossack
+				{ 4,  19722 }, -- Primal Hakkari Tabard
+				{ 5,  19717 }, -- Primal Hakkari Armsplint
+				{ 6,  19716 }, -- Primal Hakkari Bindings
+				{ 7,  19718 }, -- Primal Hakkari Stanchion
+				{ 8,  19719 }, -- Primal Hakkari Girdle
+				{ 9,  19720 }, -- Primal Hakkari Sash
 				{ 16, 230934 }, -- Arlokk's Grasp
 				{ 17, 230939 }, -- Will of Arlokk
 				{ 19, 230942 }, -- Bloodsoaked Greaves
@@ -6591,6 +6653,15 @@ data["Zul'Gurub"] = {
 			DisplayIDs = {{11311}},
 			AtlasMapBossID = 10,
 			[NORMAL_DIFF] = {
+				{ 1,  19721 }, -- Primal Hakkari Shawl
+				{ 2,  19724 }, -- Primal Hakkari Aegis
+				{ 3,  19723 }, -- Primal Hakkari Kossack
+				{ 4,  19722 }, -- Primal Hakkari Tabard
+				{ 5,  19717 }, -- Primal Hakkari Armsplint
+				{ 6,  19716 }, -- Primal Hakkari Bindings
+				{ 7,  19718 }, -- Primal Hakkari Stanchion
+				{ 8,  19719 }, -- Primal Hakkari Girdle
+				{ 9,  19720 }, -- Primal Hakkari Sash
 				{ 11, 22637 }, -- Primal Hakkari Idol
 				{ 16, 231003 }, -- Jin'do's Evil Eye
 				{ 17, 231005 }, -- Jin'do's Bag of Whammies
@@ -6773,7 +6844,12 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{10115}},
 			AtlasMapBossID = 1,
 			[NORMAL_DIFF] = {
-				{ 1, "INV_Box_01", nil, AL["Loot unconfirmed"], nil },
+				{ 1, 231729 }, -- Ancient Gloves
+				{ 2, 231720 }, -- Primeval Gloves
+				{ 3, 231712 }, -- Draconian Gloves
+				{ 5, 231722 }, -- Depleted Scythe of Chaos
+				{ 6, 229352 }, -- Intelligence Findings
+				{ 15, "INV_Box_01", nil, AL["Loot unconfirmed"], nil },
 				{ 16, 230237 }, -- Arcane Infused Gem
 				{ 17, 230238 }, -- The Black Book
 				{ 19, 230240 }, -- Mantle of the Blackwing Cabal
@@ -6789,12 +6865,46 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{13992}},
 			AtlasMapBossID = 2,
 			[NORMAL_DIFF] = {
-				{ 16, 230243}, -- Mind Quickening Gem
-				{ 17, 230244 }, -- Shapeshifter's Sigil
-				{ 19, 230246 }, -- Helm of Endless Rage
-				{ 20, 230245 }, -- Pendant of the Fallen Dragon
-				{ 21, 230248 }, -- Red Dragonscale Protector
-				{ 22, 230247 }, -- Dragonfang Blade
+				{ 1, 230243}, -- Mind Quickening Gem
+				{ 2, 230244 }, -- Shapeshifter's Sigil
+				{ 3, 230246 }, -- Helm of Endless Rage
+				{ 4, 230245 }, -- Pendant of the Fallen Dragon
+				{ 5, 230248 }, -- Red Dragonscale Protector
+				{ 6, 230247 }, -- Dragonfang Blade
+				{ 7, 230848 }, -- Interlaced Shadow Jerkin
+				{ 8, 230843 }, -- Boots of Pure Thought
+				{ 9, 230849 }, -- Ringo's Blizzard Boots
+				{ 10, 230846 }, -- Band of Dark Dominion
+				{ 11, 230845 }, -- Doom's Edge
+				{ 12, 232357 }, -- Draconic Avenger
+				{ 14, 230904 }, -- Scroll: SEENECS FO RIEF
+				{ 15, 231378 }, -- Shimmering Golden Disk
+				{ 16, 231726 }, -- Ancient Shoulderpads
+				{ 17, 231717 }, -- Primeval Shoulderpads
+				{ 18, 231709 }, -- Draconian Shoulderpads
+				{ 20, 231731 }, -- Ancient Chest
+				{ 21, 231723 }, -- Primeval Chest
+				{ 22, 231714 }, -- Draconian Robe
+				{ 24, 231727 }, -- Ancient Leggings
+				{ 25, 231718 }, -- Primeval Leggings
+				{ 26, 231710 }, -- Draconian Leggings
+				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
+				{ 101, 231724 }, -- Ancient Bindings
+				{ 102, 231715 }, -- Primeval Bindings
+				{ 103, 231707 }, -- Draconian Bindings
+				{ 105, 231729 }, -- Ancient Gloves
+				{ 106, 231720 }, -- Primeval Gloves
+				{ 107, 231712 }, -- Draconian Gloves
+				{ 109, 231730 }, -- Ancient Boots
+				{ 110, 231721 }, -- Primeval Boots
+				{ 111, 231713 }, -- Draconian Boots
+				{ 113, 231725 }, -- Ancient Belt
+				{ 114, 231716 }, -- Primeval Belt
+				{ 115, 231708 }, -- Draconian Belt
+				{ 116, 231728 }, -- Ancient Helm
+				{ 117, 231719 }, -- Primeval Helm
+				{ 118, 231711 }, -- Draconian Hood
+
 			},
 		},
 		{ -- BWLLashlayer
@@ -6804,6 +6914,12 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{14308}},
 			AtlasMapBossID = 3,
 			[NORMAL_DIFF] = {
+				{ 1, 231730 }, -- Ancient Boots
+				{ 2, 231721 }, -- Primeval Boots
+				{ 3, 231713 }, -- Draconian Boots
+				{ 5, 231452 }, -- Blood of the Lightbringer
+				{ 6, 231882 }, -- Suppression Device Receipt
+				{ 7, 231995 }, -- Hardened Elementium Slag
 				{ 16, 230249 }, -- Lifegiving Gem
 				{ 17, 230250 }, -- Venomous Totem
 				{ 19, 230251 }, -- Black Brood Pauldrons
@@ -6820,8 +6936,17 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{6377}},
 			AtlasMapBossID = 4,
 			[NORMAL_DIFF] = {
-				{ 13, 230273 }, -- Natural Alignment Crystal
-				{ 14, 230272 }, -- Scrolls of Blinding Light
+				{ 1, 231727 }, -- Ancient Leggings
+				{ 2, 231718 }, -- Primeval Leggings
+				{ 3, 231710 }, -- Draconian Leggings
+				{ 5, 230273 }, -- Natural Alignment Crystal
+				{ 6, 230272 }, -- Scrolls of Blinding Light
+				{ 7, 230282 }, -- Drake Fang Talisman
+				{ 9, 230847 }, -- Essence Gatherer (firemaw Flamegor)
+				{ 10, 230844 }, -- Draconic Maul (firemaw flamegor)
+				{ 11, 230276 }, -- Claw of the Black Drake
+				{ 12, 230271 }, -- Drake Talon Cleaver
+				{ 13, 230270 }, -- Shadow Wing Focus Staff
 				{ 16, 230256 }, -- Drake Talon Pauldrons
 				{ 17, 230277 }, -- Cloak of Firemaw
 				{ 18, 230274 }, -- Black Ash Robe
@@ -6829,11 +6954,9 @@ data["BlackwingLair"] = {
 				{ 20, 230255 }, -- Taut Dragonhide Belt
 				{ 21, 230279 }, -- Primalist's Linked Legguards
 				{ 22, 230278 }, -- Legguards of the Fallen Crusader
-				{ 24, 230276 }, -- Claw of the Black Drake
-				{ 25, 230271 }, -- Drake Talon Cleaver
-				{ 26, 230270 }, -- Shadow Wing Focus Staff
-				{ 28, 230257 }, -- Ring of Blackrock
-				{ 29, 230269 }, -- Rejuvenating Gem
+				{ 23, 230842 }, -- Cloak of Draconic Might (firemaw Flamegor)
+				{ 25, 230257 }, -- Ring of Blackrock
+				{ 26, 230269 }, -- Rejuvenating Gem
 			},
 		},
 		{ -- BWLEbonroc
@@ -6843,19 +6966,43 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{6377}},
 			AtlasMapBossID = 5,
 			[NORMAL_DIFF] = {
-				{ 11, 230280 }, -- Aegis of Preservation
-				{ 12, 230282 }, -- Drake Fang Talisman
-				{ 13, 230269 }, -- Rejuvenating Gem
-				{ 16, 230256 }, -- Drake Talon Pauldrons
-				{ 17, 19407 }, -- Ebony Flame Gloves
-				{ 18, 230255 }, -- Taut Dragonhide Belt
-				{ 19, 230725 }, -- Malfurion's Blessed Bulwark
-				{ 21, 230726 }, -- Dragonbreath Hand Cannon
-				{ 22, 230271 }, -- Drake Talon Cleaver
-				{ 23, 230270 }, -- Shadow Wing Focus Staff
-				{ 26, 230281 }, -- Band of Forced Concentration
-				{ 27, 230257 }, -- Ring of Blackrock
-
+				{ 1, 230280 }, -- Aegis of Preservation
+				{ 2, 230282 }, -- Drake Fang Talisman
+				{ 3, 230269 }, -- Rejuvenating Gem
+				{ 5, 230256 }, -- Drake Talon Pauldrons
+				{ 6, 19407 }, -- Ebony Flame Gloves
+				{ 7, 230255 }, -- Taut Dragonhide Belt
+				{ 8, 230725 }, -- Malfurion's Blessed Bulwark
+				{ 9, 230726 }, -- Dragonbreath Hand Cannon
+				{ 10, 230271 }, -- Drake Talon Cleaver
+				{ 11, 230270 }, -- Shadow Wing Focus Staff
+				{ 12, 230281 }, -- Band of Forced Concentration
+				{ 13, 230257 }, -- Ring of Blackrock
+				{ 16, 231726 }, -- Ancient Shoulderpads
+				{ 17, 231717 }, -- Primeval Shoulderpads
+				{ 18, 231709 }, -- Draconian Shoulderpads
+				{ 20, 231731 }, -- Ancient Chest
+				{ 21, 231723 }, -- Primeval Chest
+				{ 22, 231714 }, -- Draconian Robe
+				{ 24, 231727 }, -- Ancient Leggings
+				{ 25, 231718 }, -- Primeval Leggings
+				{ 26, 231710 }, -- Draconian Leggings
+				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
+				{ 101, 231724 }, -- Ancient Bindings
+				{ 102, 231715 }, -- Primeval Bindings
+				{ 103, 231707 }, -- Draconian Bindings
+				{ 105, 231729 }, -- Ancient Gloves
+				{ 106, 231720 }, -- Primeval Gloves
+				{ 107, 231712 }, -- Draconian Gloves
+				{ 109, 231730 }, -- Ancient Boots
+				{ 110, 231721 }, -- Primeval Boots
+				{ 111, 231713 }, -- Draconian Boots
+				{ 113, 231725 }, -- Ancient Belt
+				{ 114, 231716 }, -- Primeval Belt
+				{ 115, 231708 }, -- Draconian Belt
+				{ 116, 231728 }, -- Ancient Helm
+				{ 117, 231719 }, -- Primeval Helm
+				{ 118, 231711 }, -- Draconian Hood
 			},
 		},
 		{ -- BWLFlamegor
@@ -6865,18 +7012,22 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{6377}},
 			AtlasMapBossID = 6,
 			[NORMAL_DIFF] = {
-				{ 11, 230269 }, -- Rejuvenating Gem
-				{ 12, 230736 }, -- Styleen's Impeding Scarab
-				{ 16, 230256 }, -- Drake Talon Pauldrons
-				{ 17, 230733 }, -- Shroud of Pure Thought
-				{ 18, 230255 }, -- Taut Dragonhide Belt
-				{ 19, 230735 }, -- Emberweave Leggings
-				{ 21, 230737 }, -- Dragon's Touch
-				{ 22, 230271 }, -- Drake Talon Cleaver
-				{ 23, 230738 }, -- Herald of Woe
-				{ 24, 230270 }, -- Shadow Wing Focus Staff
-				{ 26, 230734 }, -- Circle of Applied Force
-				{ 27, 230257 }, -- Ring of Blackrock
+				{ 1, 230269 }, -- Rejuvenating Gem
+				{ 2, 230736 }, -- Styleen's Impeding Scarab
+				{ 3, 230282 }, -- Drake Fang Talisman
+				{ 5, 230256 }, -- Drake Talon Pauldrons
+				{ 6, 230733 }, -- Shroud of Pure Thought
+				{ 7, 230255 }, -- Taut Dragonhide Belt
+				{ 8, 230735 }, -- Emberweave Leggings
+				{ 9,  230842 }, -- Cloak of Draconic Might (firemaw Flamegor)
+				{ 11, 230734 }, -- Circle of Applied Force
+				{ 12, 230257 }, -- Ring of Blackrock
+				{ 16, 230737 }, -- Dragon's Touch
+				{ 17, 230271 }, -- Drake Talon Cleaver
+				{ 18, 230738 }, -- Herald of Woe
+				{ 19, 230844 }, -- Draconic Maul
+				{ 20, 230847 }, -- Essence Gatherer (firemaw Flamegor)
+				{ 21, 230270 }, -- Shadow Wing Focus Staff
 			},
 		},
 		{ -- BWLChromaggus
@@ -6886,6 +7037,11 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{14367}},
 			AtlasMapBossID = 7,
 			[NORMAL_DIFF] = {
+				{ 1, 231726 }, -- Ancient Shoulderpads
+				{ 2, 231717 }, -- Primeval Shoulderpads
+				{ 3, 231709 }, -- Draconian Shoulderpads
+				{ 5, 231814 }, -- Chromatic Heart
+				{ 6, 229906 }, -- Tarnished Bronze Scale
 				{ 16, 230740 }, -- Taut Dragonhide Shoulderpads
 				{ 17, 230744 }, -- Elementium Threaded Cloak
 				{ 18, 230742 }, -- Taut Dragonhide Gloves
@@ -6908,26 +7064,51 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{11380}},
 			AtlasMapBossID = 8,
 			[NORMAL_DIFF] = {
-				{ 11, 19003 }, -- Head of Nefarian
-				{ 16, 230838 }, -- Lok'amir il Romathis
-				{ 17, 230837 }, -- Crul'shorukh, Edge of Chaos
-				{ 18, 230818 }, -- Ashkandi, Greatsword of the Brotherhood
-				{ 19, 230813 }, -- Staff of the Shadow Flame
-				{ 21, 230812 }, -- Mish'undare, Circlet of the Mind Flayer
-				{ 22, 231803 }, -- Prestor's Talisman of Connivery
-				{ 23, 230804 }, -- Cloak of the Brood Lord
-				{ 24, 230806 }, -- Therazane's Link
-				{ 25, 230805 }, -- Boots of the Shadow Flame
-				{ 26, 230808 }, -- Archimtiros' Ring of Reckoning
-				{ 27, 230811 }, -- Pure Elementium Band
-				{ 28, 230810 }, -- Neltharion's Tear
-				{ 30, 11938 }, -- Sack of Gems
+				{ 1, 19003 }, -- Head of Nefarian
+				{ 2, 230838 }, -- Lok'amir il Romathis
+				{ 3, 230837 }, -- Crul'shorukh, Edge of Chaos
+				{ 4, 230818 }, -- Ashkandi, Greatsword of the Brotherhood
+				{ 5, 230813 }, -- Staff of the Shadow Flame
+				{ 6, 230812 }, -- Mish'undare, Circlet of the Mind Flayer
+				{ 7, 231803 }, -- Prestor's Talisman of Connivery
+				{ 8, 230804 }, -- Cloak of the Brood Lord
+				{ 9, 230806 }, -- Therazane's Link
+				{ 10, 230805 }, -- Boots of the Shadow Flame
+				{ 11, 230808 }, -- Archimtiros' Ring of Reckoning
+				{ 12, 230811 }, -- Pure Elementium Band
+				{ 13, 230810 }, -- Neltharion's Tear
+				{ 15, 11938 }, -- Sack of Gems
 				-- Hidden items
 				{ 0, 17962 }, -- Blue Sack of Gems
 				{ 0, 17963 }, -- Green Sack of Gems
 				{ 0, 17964 }, -- Gray Sack of Gems
 				{ 0, 17965 }, -- Yellow Sack of Gems
 				{ 0, 17969 }, -- Red Sack of Gems
+				{ 16, 231726 }, -- Ancient Shoulderpads
+				{ 17, 231717 }, -- Primeval Shoulderpads
+				{ 18, 231709 }, -- Draconian Shoulderpads
+				{ 20, 231731 }, -- Ancient Chest
+				{ 21, 231723 }, -- Primeval Chest
+				{ 22, 231714 }, -- Draconian Robe
+				{ 24, 231727 }, -- Ancient Leggings
+				{ 25, 231718 }, -- Primeval Leggings
+				{ 26, 231710 }, -- Draconian Leggings
+				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
+				{ 101, 231724 }, -- Ancient Bindings
+				{ 102, 231715 }, -- Primeval Bindings
+				{ 103, 231707 }, -- Draconian Bindings
+				{ 105, 231729 }, -- Ancient Gloves
+				{ 106, 231720 }, -- Primeval Gloves
+				{ 107, 231712 }, -- Draconian Gloves
+				{ 109, 231730 }, -- Ancient Boots
+				{ 110, 231721 }, -- Primeval Boots
+				{ 111, 231713 }, -- Draconian Boots
+				{ 113, 231725 }, -- Ancient Belt
+				{ 114, 231716 }, -- Primeval Belt
+				{ 115, 231708 }, -- Draconian Belt
+				{ 116, 231728 }, -- Ancient Helm
+				{ 117, 231719 }, -- Primeval Helm
+				{ 118, 231711 }, -- Draconian Hood
 			},
 		},
 		{ -- BWLSets
@@ -6964,14 +7145,14 @@ data["BlackwingLair"] = {
 			name = AL["Trash"],
 			ExtraList = true,
 			[NORMAL_DIFF] = {
-				{ 1,  230842 }, -- Cloak of Draconic Might
+				{ 1,  230842 }, -- Cloak of Draconic Might (firemaw Flamegor)
 				{ 2, 230848 }, -- Interlaced Shadow Jerkin
 				{ 3, 230843 }, -- Boots of Pure Thought
 				{ 4, 230849 }, -- Ringo's Blizzard Boots
 				{ 5, 230846 }, -- Band of Dark Dominion
-				{ 6, 230847 }, -- Essence Gatherer
+				{ 6, 230847 }, -- Essence Gatherer (firemaw Flamegor)
 				{ 7, 230845 }, -- Doom's Edge
-				-- { 8,  19354 }, -- Draconic Avenger
+				{ 8, 232357 }, -- Draconic Avenger
 				{ 9, 230844 }, -- Draconic Maul
 				{ 11, 18562 }, -- Elementium Ore
 			},

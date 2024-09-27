@@ -155,15 +155,15 @@ TOKEN_DATA.CLASSIC = {
 	[221306] = 221299,
 
 	-- Zul'Gurub
-	[19724] = { ICONS.HUNTER, 19831, 0, ICONS.ROGUE, 19834, 0, ICONS.PRIEST, 19841, type = 6 },		-- Primal Hakkari Aegis
-	[19717] = { ICONS.WARRIOR, 19824, 0, ICONS.ROGUE, 19836, 0, ICONS.SHAMAN, 19830, type = 6 },	-- Primal Hakkari Armsplint
-	[19716] = { ICONS.PALADIN, 19827, 0, ICONS.HUNTER, 19833, 0, ICONS.MAGE, 19846, type = 6 },		-- Primal Hakkari Bindings
-	[19719] = { ICONS.WARRIOR, 19823, 0, ICONS.ROGUE, 19835, 0, ICONS.SHAMAN, 19829, type = 6 },	-- Primal Hakkari Girdle
-	[19723] = { ICONS.WARRIOR, 19822, 0, ICONS.MAGE, 20034, 0, ICONS.WARLOCK, 20033, type = 6 },	-- Primal Hakkari Kossack
-	[19720] = { ICONS.PRIEST, 19842, 0, ICONS.WARLOCK, 19849, 0, ICONS.DRUID, 19839, type = 6 },	-- Primal Hakkari Sash
-	[19721] = { ICONS.PALADIN, 19826, 0, ICONS.HUNTER, 19832, 0, ICONS.MAGE, 19845, type = 6 },		-- Primal Hakkari Shawl
-	[19718] = { ICONS.PRIEST, 19843, 0, ICONS.WARLOCK, 19848, 0, ICONS.DRUID, 19840, type = 6 },	-- Primal Hakkari Stanchion
-	[19722] = { ICONS.PALADIN, 19825, 0, ICONS.SHAMAN, 19828, 0, ICONS.DRUID, 19838, type = 6 },	-- Primal Hakkari Tabard
+	[19724] = { ICONS.HUNTER, 19831, {231321, "SoD"}, 0, ICONS.ROGUE, 19834, {231337, "SoD"}, 0, ICONS.PRIEST, 19841, {231333, "SoD"}, type = 6 },		-- Primal Hakkari Aegis
+	[19717] = { ICONS.WARRIOR, 19824, {231351, "SoD"}, 0, ICONS.ROGUE, 19836, {231339, "SoD"}, 0, ICONS.SHAMAN, 19830, {231343, "SoD"}, type = 6 },	-- Primal Hakkari Armsplint
+	[19716] = { ICONS.PALADIN, 19827, {231331, "SoD"}, 0, ICONS.HUNTER, 19833, {231323, "SoD"}, 0, ICONS.MAGE, 19846, {231326, "SoD"}, type = 6 },		-- Primal Hakkari Bindings
+	[19719] = { ICONS.WARRIOR, 19823, {231352, "SoD"}, 0, ICONS.ROGUE, 19835, {231338, "SoD"}, 0, ICONS.SHAMAN, 19829, {231342, "SoD"}, type = 6 },	-- Primal Hakkari Girdle
+	[19723] = { ICONS.WARRIOR, 19822, {231353, "SoD"}, 0, ICONS.MAGE, 20034, {231327, "SoD"}, 0, ICONS.WARLOCK, 20033, {231348, "SoD"}, type = 6 },	-- Primal Hakkari Kossack
+	[19720] = { ICONS.PRIEST, 19842, {231335, "SoD"}, 0, ICONS.WARLOCK, 19849, {231349, "SoD"}, 0, ICONS.DRUID, 19839, {231318, "SoD"}, type = 6 },	-- Primal Hakkari Sash
+	[19721] = { ICONS.PALADIN, 19826, {231330, "SoD"}, 0, ICONS.HUNTER, 19832, {231322, "SoD"}, 0, ICONS.MAGE, 19845, {231325, "SoD"}, type = 6 },		-- Primal Hakkari Shawl
+	[19718] = { ICONS.PRIEST, 19843, {231335, "SoD"}, 0, ICONS.WARLOCK, 19848, {231347, "SoD"}, 0, ICONS.DRUID, 19840, {231319, "SoD"}, type = 6 },	-- Primal Hakkari Stanchion
+	[19722] = { ICONS.PALADIN, 19825, {231329, "SoD"}, 0, ICONS.SHAMAN, 19828, {231341, "SoD"}, 0, ICONS.DRUID, 19838, {231317, "SoD"}, type = 6 },	-- Primal Hakkari Tabard
 
 	-- AQ40
 	[21237] = { 21268, 21273, 21275, type = 6 },			-- Imperial Qiraji Regalia
@@ -277,6 +277,15 @@ TOKEN_DATA.CLASSIC = {
 	[217350] = { 213346, 213345, 213344, 213343, type = 3 }, -- Thermaplugg's Engineering Notes
 	[217351] = { 213346, 213345, 213344, 213343, type = 3 }, -- Thermaplugg's Engineering Notes
 	[19018] = { 19019, type = 3 }, -- Dormant Wind Kissed Blade
+	[231814] = { 224281, 224282, type = 3 }, -- Chromatic Heart
+	[231882] = { 231754, 231755, type = 3 }, -- Suppression Device Receipt
+	[230904] = { 229909, 229971, 229972, type = 3 }, -- Scroll: SEENECS FO RIEF
+	[231452] = { 229749, 229806, type = 3 }, -- Blood of the Lightbringer
+	[229906] = { 231509, type = 3 }, -- Tarnished Bronze Scale
+	[229352] = { 224122, type = 3 }, -- Intelligence Findings
+	[231995] = { 224279, 231890, type = 3 }, -- Hardenced Elementium Slag
+	[231722] = { 229910, type = 3 }, -- Depleted Scythe of Chaos
+	[231378] = { 224280, type = 3 }, -- Shimmering Golden Disc
 
 	--SoD Tokens
 	[217007] = { 213336, 213337, 213341, 213342, 213338, 213339, 213335, 216484, type = 6 },
@@ -428,7 +437,8 @@ TOKEN_DATA.CLASSIC = {
 	[19939] = { 19939, 19940, 19941, 19942, 0,
 				ICONS.WARLOCK, ICONS.PRIEST, ICONS.MAGE, ICONS.ROGUE, ICONS.DRUID, ICONS.HUNTER, ICONS.SHAMAN, ICONS.WARRIOR, ICONS.PALADIN, 0,
 				19819, 19820, 19818, 19814, 19821, 19816, 19817, 19813, 19815, 0,
-				19957, 19958, 19959, 19954, 19955, 19953, 19956, 19951, 19952 }, -- Gri'lek's Blood
+				19957, 19958, 19959, 19954, 19955, 19953, 19956, 19951, 19952, 0,
+				{231285, "SoD"}, {231283, "SoD"}, {231282, "SoD"}, {231287, "SoD"}, {231280, "SoD"}, {231288, "SoD"}, {231281, "SoD"}, {231286, "SoD"}, {231285, "SoD"}}, -- Gri'lek's Blood
 	[19940] = 19939, -- Renataki's Tooth
 	[19941] = 19939, -- Wushoolay's Mane
 	[19942] = 19939, -- Hazza'rah's Dream Thread
@@ -592,6 +602,7 @@ TOKEN_DATA.CLASSIC = {
 	[230813] = { 232556, type = 9 }, -- Staff of the Shadow Flame (Shadowflame)
 	[230845] = { 232577, type = 9 }, -- Doom's Edge (Shadowflame)
 	[230844] = { 232551, type = 9 }, -- Draconic Maul (Shadowflame)
+	[232357] = { 232556, type = 9 }, -- Draconic Avenger (Shadowflame)
 	[230911] = { 231861, type = 9 }, -- Jeklik's Crusher (Bloodied)
 	[230865] = { 231874, type = 9 }, -- Fang of Venoxis (Bloodied)
 	[230868] = { 231873, type = 9 }, -- Zulian Stone Axe (Bloodied)
