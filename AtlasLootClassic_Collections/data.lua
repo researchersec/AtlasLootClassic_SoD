@@ -362,13 +362,6 @@ data["SoD Currency"] = {
 				{ 5, 11382 }, -- Blood of the Mountain
 			},
 		},
-		{
-			name = AL["Emerald Chips"],
-			[NORMAL_DIFF] = {
-				{ 1, 231642 }, -- Warden's Herb Bag
-				{ 2, 231644 }, -- Warden's Enchanting Bag
-			},
-		},
 	},
 }
 

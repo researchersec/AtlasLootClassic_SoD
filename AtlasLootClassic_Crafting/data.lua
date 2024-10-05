@@ -665,11 +665,12 @@ data["Enchanting"] = {
 				{ 9, "INV_Box_01", nil, AL["Phase 3"], nil },
 				{ 10, 446243 }, -- Sigil of Living Dreams
 				{ 11, 448624 }, -- Scroll of Spatial Mending
-				{ 13, "INV_Box_01", nil, AL["Phase 4"], nil },
-				{ 14, 463866 }, -- Sigil of Flowing Waters
-				{ 15, 463869 }, --Conductive Shield Coating
-				{ 16, "INV_Box_01", nil, AL["Updated in SoD"], nil },
-				{ 17, 439134 }, -- Greater Mystic Wand
+				{ 16, "INV_Box_01", nil, AL["Phase 4"], nil },
+				{ 17, 463866 }, -- Sigil of Flowing Waters
+				{ 18, 463869 }, -- Conductive Shield Coating
+				{ 19, 463871 }, -- Law of Nature
+				{ 21, "INV_Box_01", nil, AL["Updated in SoD"], nil },
+				{ 22, 439134 }, -- Greater Mystic Wand
 			}
 		},
 		{

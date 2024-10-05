@@ -6073,10 +6073,10 @@ data["MoltenCore2"] = {
 			[NORMAL_DIFF] = {
 				{ 1, 227728 }, -- Eye of Sulfuras
 				{ 2, 19017 }, -- Essence of the Firelord
-				{ 4,  17203 }, -- Sulfuron Ingot
-				{ 5, 228297 }, -- Shard of the Flame
-				{ 6, 228291 }, -- Crown of Destruction
-				{ 7, 228147 }, -- Choker of the Fire Lord (Magmadar's Horn)
+				{ 3,  17203 }, -- Sulfuron Ingot
+				{ 5, 228289 }, -- Choker of the Firelord
+				{ 6, 228297 }, -- Shard of the Flame
+				{ 7, 228291 }, -- Crown of Destruction
 				{ 8, 228290 }, -- Cloak of the Shrouded Mists
 				{ 9, 228292 }, -- Dragon's Blood Cape
 				{ 10, 228295 }, -- Onslaught Girdle
@@ -6332,6 +6332,9 @@ data["WorldBosses2"] = {
 				{ 22, 231777 }, -- Crystallized Qiraji Limb
 				{ 23, 231387 }, -- Stormwrath, Snactified Shortblade of the Galefinder
 				{ 24, 231781 }, -- Soul of Thunder
+				{ 25, 231823 }, -- Geddon's Glaive
+				{ 26, 231817 }, -- Windstriker
+				{ 27, 231779 }, -- Wrath of Wray
 			},
 		},
 	},
@@ -6703,7 +6706,7 @@ data["Zul'Gurub"] = {
 			},
 		},
 		{
-			name = AL["Zul-Gurub Sets"],
+			name = AL["Zul'Gurub Sets"],
 			ExtraList = true,
 			TableType = SET_ITTYPE,
 			[NORMAL_DIFF] = {
@@ -6865,45 +6868,23 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{13992}},
 			AtlasMapBossID = 2,
 			[NORMAL_DIFF] = {
-				{ 1, 230243}, -- Mind Quickening Gem
-				{ 2, 230244 }, -- Shapeshifter's Sigil
-				{ 3, 230246 }, -- Helm of Endless Rage
-				{ 4, 230245 }, -- Pendant of the Fallen Dragon
-				{ 5, 230248 }, -- Red Dragonscale Protector
-				{ 6, 230247 }, -- Dragonfang Blade
-				{ 7, 230848 }, -- Interlaced Shadow Jerkin
-				{ 8, 230843 }, -- Boots of Pure Thought
-				{ 9, 230849 }, -- Ringo's Blizzard Boots
-				{ 10, 230846 }, -- Band of Dark Dominion
-				{ 11, 230845 }, -- Doom's Edge
-				{ 12, 232357 }, -- Draconic Avenger
-				{ 14, 230904 }, -- Scroll: SEENECS FO RIEF
-				{ 15, 231378 }, -- Shimmering Golden Disk
-				{ 16, 231726 }, -- Ancient Shoulderpads
-				{ 17, 231717 }, -- Primeval Shoulderpads
-				{ 18, 231709 }, -- Draconian Shoulderpads
-				{ 20, 231731 }, -- Ancient Chest
-				{ 21, 231723 }, -- Primeval Chest
-				{ 22, 231714 }, -- Draconian Robe
-				{ 24, 231727 }, -- Ancient Leggings
-				{ 25, 231718 }, -- Primeval Leggings
-				{ 26, 231710 }, -- Draconian Leggings
-				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 231724 }, -- Ancient Bindings
-				{ 102, 231715 }, -- Primeval Bindings
-				{ 103, 231707 }, -- Draconian Bindings
-				{ 105, 231729 }, -- Ancient Gloves
-				{ 106, 231720 }, -- Primeval Gloves
-				{ 107, 231712 }, -- Draconian Gloves
-				{ 109, 231730 }, -- Ancient Boots
-				{ 110, 231721 }, -- Primeval Boots
-				{ 111, 231713 }, -- Draconian Boots
-				{ 113, 231725 }, -- Ancient Belt
-				{ 114, 231716 }, -- Primeval Belt
-				{ 115, 231708 }, -- Draconian Belt
-				{ 116, 231728 }, -- Ancient Helm
-				{ 117, 231719 }, -- Primeval Helm
-				{ 118, 231711 }, -- Draconian Hood
+				{ 1, 231727 }, -- Ancient Leggings
+				{ 2, 231718 }, -- Primeval Leggings
+				{ 3, 231710 }, -- Draconian Leggings
+				{ 5, 230243 }, -- Mind Quickening Gem
+				{ 7, 230904 }, -- Scroll: SEENECS FO RIEF
+				{ 8, 231378 }, -- Shimmering Golden Disk
+				{ 16, 230244 }, -- Shapeshifter's Sigil
+				{ 17, 230246 }, -- Helm of Endless Rage
+				{ 18, 230245 }, -- Pendant of the Fallen Dragon
+				{ 19, 230248 }, -- Red Dragonscale Protector
+				{ 20, 230247 }, -- Dragonfang Blade
+				{ 21, 230848 }, -- Interlaced Shadow Jerkin
+				{ 22, 230843 }, -- Boots of Pure Thought
+				{ 23, 230849 }, -- Ringo's Blizzard Boots
+				{ 24, 230846 }, -- Band of Dark Dominion
+				{ 25, 230845 }, -- Doom's Edge
+				{ 26, 232357 }, -- Draconic Avenger
 
 			},
 		},
@@ -6945,8 +6926,8 @@ data["BlackwingLair"] = {
 				{ 9, 230847 }, -- Essence Gatherer (firemaw Flamegor)
 				{ 10, 230844 }, -- Draconic Maul (firemaw flamegor)
 				{ 11, 230276 }, -- Claw of the Black Drake
-				{ 12, 230271 }, -- Drake Talon Cleaver
-				{ 13, 230270 }, -- Shadow Wing Focus Staff
+				--{ 12, 230271 }, -- Drake Talon Cleaver
+				{ 12, 230270 }, -- Shadow Wing Focus Staff
 				{ 16, 230256 }, -- Drake Talon Pauldrons
 				{ 17, 230277 }, -- Cloak of Firemaw
 				{ 18, 230274 }, -- Black Ash Robe
@@ -6966,43 +6947,20 @@ data["BlackwingLair"] = {
 			DisplayIDs = {{6377}},
 			AtlasMapBossID = 5,
 			[NORMAL_DIFF] = {
-				{ 1, 230280 }, -- Aegis of Preservation
-				{ 2, 230282 }, -- Drake Fang Talisman
-				{ 3, 230269 }, -- Rejuvenating Gem
-				{ 5, 230256 }, -- Drake Talon Pauldrons
-				{ 6, 19407 }, -- Ebony Flame Gloves
-				{ 7, 230255 }, -- Taut Dragonhide Belt
-				{ 8, 230725 }, -- Malfurion's Blessed Bulwark
-				{ 9, 230726 }, -- Dragonbreath Hand Cannon
-				{ 10, 230271 }, -- Drake Talon Cleaver
-				{ 11, 230270 }, -- Shadow Wing Focus Staff
-				{ 12, 230281 }, -- Band of Forced Concentration
-				{ 13, 230257 }, -- Ring of Blackrock
-				{ 16, 231726 }, -- Ancient Shoulderpads
-				{ 17, 231717 }, -- Primeval Shoulderpads
-				{ 18, 231709 }, -- Draconian Shoulderpads
-				{ 20, 231731 }, -- Ancient Chest
-				{ 21, 231723 }, -- Primeval Chest
-				{ 22, 231714 }, -- Draconian Robe
-				{ 24, 231727 }, -- Ancient Leggings
-				{ 25, 231718 }, -- Primeval Leggings
-				{ 26, 231710 }, -- Draconian Leggings
-				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 231724 }, -- Ancient Bindings
-				{ 102, 231715 }, -- Primeval Bindings
-				{ 103, 231707 }, -- Draconian Bindings
-				{ 105, 231729 }, -- Ancient Gloves
-				{ 106, 231720 }, -- Primeval Gloves
-				{ 107, 231712 }, -- Draconian Gloves
-				{ 109, 231730 }, -- Ancient Boots
-				{ 110, 231721 }, -- Primeval Boots
-				{ 111, 231713 }, -- Draconian Boots
-				{ 113, 231725 }, -- Ancient Belt
-				{ 114, 231716 }, -- Primeval Belt
-				{ 115, 231708 }, -- Draconian Belt
-				{ 116, 231728 }, -- Ancient Helm
-				{ 117, 231719 }, -- Primeval Helm
-				{ 118, 231711 }, -- Draconian Hood
+				{ 1, 231728 }, -- Ancient Helm
+				{ 2, 231719 }, -- Primeval Helm
+				{ 3, 231711 }, -- Draconian Hood
+				{ 5, 230280 }, -- Aegis of Preservation
+				{ 7, 230269 }, -- Rejuvenating Gem
+				{ 16, 230256 }, -- Drake Talon Pauldrons
+				{ 17, 19407 }, -- Ebony Flame Gloves
+				{ 18, 230255 }, -- Taut Dragonhide Belt
+				{ 19, 230725 }, -- Malfurion's Blessed Bulwark
+				{ 20, 230726 }, -- Dragonbreath Hand Cannon
+				{ 21, 230271 }, -- Drake Talon Cleaver
+				{ 22, 230270 }, -- Shadow Wing Focus Staff
+				{ 23, 230281 }, -- Band of Forced Concentration
+				{ 24, 230257 }, -- Ring of Blackrock
 			},
 		},
 		{ -- BWLFlamegor
@@ -7023,11 +6981,10 @@ data["BlackwingLair"] = {
 				{ 11, 230734 }, -- Circle of Applied Force
 				{ 12, 230257 }, -- Ring of Blackrock
 				{ 16, 230737 }, -- Dragon's Touch
-				{ 17, 230271 }, -- Drake Talon Cleaver
-				{ 18, 230738 }, -- Herald of Woe
-				{ 19, 230844 }, -- Draconic Maul
-				{ 20, 230847 }, -- Essence Gatherer (firemaw Flamegor)
-				{ 21, 230270 }, -- Shadow Wing Focus Staff
+				{ 17, 230738 }, -- Herald of Woe
+				{ 18, 230844 }, -- Draconic Maul
+				{ 19, 230847 }, -- Essence Gatherer (firemaw Flamegor)
+				{ 20, 230270 }, -- Shadow Wing Focus Staff
 			},
 		},
 		{ -- BWLChromaggus
