@@ -9833,8 +9833,11 @@ data["TheTempleofAhnQiraj"] = { -- AQ40
 				{ 12, 233589 }, -- Fetish of the Sand Reaver
 				{ 13, 233596 }, -- Libram of Grace
 				{ 14, 233597 }, -- Totem of Life
-				{ 16, 235045 }, -- Imperial Qiraji Regalia
-				{ 17, 235046 }, -- Imperial Qiraji Armaments
+				{ 16, 233370 }, -- Qiraji Bindings of Command
+				{ 17, 233369 }, -- Qiraji Bindings of Dominance
+				{ 18, 233371 }, -- Qiraji Bindings of Sovereignty
+				{ 20, 235045 }, -- Imperial Qiraji Regalia
+				{ 21, 235046 }, -- Imperial Qiraji Armaments
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  21665 }, -- Mantle of Wicked Revenge
@@ -9868,10 +9871,11 @@ data["TheTempleofAhnQiraj"] = { -- AQ40
 				{ 6,  233600 }, -- Ring of the Qiraji Fury
 				{ 7,  233601 }, -- Scarab Brooch
 				{ 8,  233602 }, -- Idol of Health
-				{ 16, 235045 }, -- Imperial Qiraji Regalia
-				{ 17, 235046 }, -- Imperial Qiraji Armaments
-				{ 19, 233370 }, -- Qiraji Bindings of Command
-				{ 20, 233369 }, -- Qiraji Bindings of Dominance
+				{ 16, 233370 }, -- Qiraji Bindings of Command
+				{ 17, 233369 }, -- Qiraji Bindings of Dominance
+				{ 18, 233371 }, -- Qiraji Bindings of Sovereignty
+				{ 20, 235045 }, -- Imperial Qiraji Regalia
+				{ 21, 235046 }, -- Imperial Qiraji Armaments
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  21624 }, -- Gauntlets of Kalimdor
@@ -9900,10 +9904,11 @@ data["TheTempleofAhnQiraj"] = { -- AQ40
 				{ 4,  233608 }, -- Wasphide Gauntlets
 				{ 5,  233609 }, -- Ring of the Martyr
 				{ 6,  233605 }, -- Huhuran's Stinger
-				{ 16, 235045 }, -- Imperial Qiraji Regalia
-				{ 17, 235046 }, -- Imperial Qiraji Armaments
-				{ 19, 233370 }, -- Qiraji Bindings of Command
-				{ 20, 233369 }, -- Qiraji Bindings of Dominance
+				{ 16, 233370 }, -- Qiraji Bindings of Command
+				{ 17, 233369 }, -- Qiraji Bindings of Dominance
+				{ 18, 233371 }, -- Qiraji Bindings of Sovereignty
+				{ 20, 235045 }, -- Imperial Qiraji Regalia
+				{ 21, 235046 }, -- Imperial Qiraji Armaments
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  21621 }, -- Cloak of the Golden Hive
@@ -9926,26 +9931,30 @@ data["TheTempleofAhnQiraj"] = { -- AQ40
 			AtlasMapBossID = 7,
 			[SOD_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Emperor Vek'lor"], nil },
-				{ 2,  20887 }, -- Vek'lor's Diadem
-				{ 3,  233612 }, -- Qiraji Execution Bracers
-				{ 4,  233613 }, -- Vek'lor's Gloves of Devastation
-				{ 5,  233614 }, -- Royal Qiraji Belt
-				{ 6,  233611 }, -- Boots of Epiphany
-				{ 7,  233615 }, -- Ring of Emperor Vek'lor
-				{ 8,  233616 }, -- Royal Scepter of Vek'lor
-				{ 9,  20735 }, -- Formula: Enchant Cloak - Subtlety
-				{ 12, 235046 }, -- Imperial Qiraji Armaments
+				{ 2, 233365 }, -- Intact Viscera
+				{ 3, 233367 }, -- Intact Peritoneum
+				{ 4, 233368 }, -- Intact Entrails
+				{ 5,  233612 }, -- Qiraji Execution Bracers
+				{ 6,  233613 }, -- Vek'lor's Gloves of Devastation
+				{ 7,  233614 }, -- Royal Qiraji Belt
+				{ 8,  233611 }, -- Boots of Epiphany
+				{ 9,  233615 }, -- Ring of Emperor Vek'lor
+				{ 10,  233616 }, -- Royal Scepter of Vek'lor
+				{ 11,  20735 }, -- Formula: Enchant Cloak - Subtlety
+				{ 14, 235046 }, -- Imperial Qiraji Armaments
 				{ 16, "INV_Box_01", nil, AL["Emperor Vek'nilash"], nil },
-				{ 17, 20883 }, -- Vek'nilash's Circlet
-				{ 18, 233620 }, -- Amulet of Vek'nilash
-				{ 19, 233617 }, -- Bracelets of Royal Redemption
-				{ 20, 233618 }, -- Gloves of the Hidden Temple
-				{ 21, 21609 }, -- Regenerating Belt of Vek'nilash
-				{ 22, 233622 }, -- Grasp of the Fallen Emperor
-				{ 23, 233623 }, -- Belt of the Fallen Emperor
-				{ 24, 233621 }, -- Kalimdor's Revenge
-				{ 25, 20726 }, -- Formula: Enchant Gloves - Threat
-				{ 27, 235045 }, -- Imperial Qiraji Regalia
+				{ 17, 233365 }, -- Intact Viscera
+				{ 18, 233367 }, -- Intact Peritoneum
+				{ 19, 233368 }, -- Intact Entrails
+				{ 20, 233620 }, -- Amulet of Vek'nilash
+				{ 21, 233617 }, -- Bracelets of Royal Redemption
+				{ 22, 233618 }, -- Gloves of the Hidden Temple
+				{ 23, 21609 }, -- Regenerating Belt of Vek'nilash
+				{ 24, 233622 }, -- Grasp of the Fallen Emperor
+				{ 25, 233623 }, -- Belt of the Fallen Emperor
+				{ 26, 233621 }, -- Kalimdor's Revenge
+				{ 27, 20726 }, -- Formula: Enchant Gloves - Threat
+				{ 29, 235045 }, -- Imperial Qiraji Regalia
 			},
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Emperor Vek'lor"], nil },
@@ -9986,8 +9995,9 @@ data["TheTempleofAhnQiraj"] = { -- AQ40
 				{ 6,  233626 }, -- Larvae of the Great Worm
 				{ 16, 235045 }, -- Imperial Qiraji Regalia
 				{ 17, 235046 }, -- Imperial Qiraji Armaments
-				{ 19, 233365 }, -- Ouro's Intact Hide
-				{ 20, 233367 }, -- Skin of the Great Sandworm
+				{ 19, 233365 }, -- Intact Viscera
+				{ 20, 233367 }, -- Intact Peritoneum
+				{ 21, 233368 }, -- Intact Entrails
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  21615 }, -- Don Rigoberto's Lost Hat
@@ -10024,8 +10034,9 @@ data["TheTempleofAhnQiraj"] = { -- AQ40
 				{ 13, 233640 }, -- Dark Edge of Insanity
 				{ 16, 233363 }, -- Carapace of the Old God
 				{ 17, 233362 }, -- Husk of the Old God
-				{ 19, 21221 }, -- Eye of C'Thun
-				{ 21, 22734 }, -- Base of Atiesh
+				{ 18, 233364 }, -- Skin of the Old God
+				{ 20, 21221 }, -- Eye of C'Thun
+				{ 22, 22734 }, -- Base of Atiesh
 				{ 24, "INV_Box_01", nil, AL["Hard Mode Mounts"], nil },
 				{ 25, 233351 }, -- Light Green Qiraji Resonating Crystal
 				{ 26, 233352 }, -- Dark Blue Qiraji Resonating Crystal
