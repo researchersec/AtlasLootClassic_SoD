@@ -8185,6 +8185,79 @@ data["DemonFallCanyon"] = {
 	},
 }
 
+data["KarazhanCrypts"] = {
+	MapID = 16074, 
+	InstanceID = 2875,
+	ContentType = DUNGEON_CONTENT,
+	LevelRange = {60, 60, 60},
+	items = {
+		{ -- KCCreepingMalison
+			name = AL["Creeping Malison"],
+			[SOD_DIFF] = {
+				{ 1, 235884}, -- Spectral Signet
+				{ 2, 235885}, -- Ghastly Ring
+				{ 3, 235888}, -- Clobberclub
+				{ 4, 235881}, -- Dreaded Treaders
+			},
+		},
+		{ -- KCTheFailedApprentice
+			name = AL["The Failed Apprentice"],
+			[SOD_DIFF] = {
+				{ 1, 235887}, -- Barian's Choker
+				{ 2, 235873}, -- Crypt's Keepers
+				{ 3, 235894}, -- Doomsayer's Demise
+				{ 4, 235886}, -- Kaigy's Clasp
+				{ 5, 235879}, -- Nimble Links
+                { 6, 235880}, -- Pauper Soles
+                
+			},
+		},
+		{ -- KCHarbinger
+			name = AL["Harbinger of Sin"],
+			[SOD_DIFF] = {
+				{ 1, 235882}, -- Clattering Steps
+				{ 2, 235891}, -- Ol' Reliable
+				{ 3, 235890}, -- Shadow Weaver's Needle
+				{ 4, 235869}, -- The Master's Cowl
+			},
+		},
+		{ -- KCOpera
+			name = AL["Opera of Malediction"],
+			[SOD_DIFF] = {
+				{ 1, 235870}, -- Rattlechain Helm
+				{ 2, 235889}, -- Servant's Quarterstaff
+				{ 3, 235893}, -- Shadowbound Grimoire
+				{ 4, 235883}, -- Well Diver's Stumble
+			},
+		},
+		{ -- KCKharon
+			name = AL["Kharon"],
+			[SOD_DIFF] = {
+				{ 1, 235888}, -- Clobberclub
+				{ 2, 235871}, -- Clutching Death Helm
+				{ 3, 235874}, -- Cultist's Handwraps
+				{ 4, 235877}, -- Fanatic's Gauntlets
+				{ 5, 235875}, -- Gravedigger's Gloves
+				{ 6, 235878}, -- Malefic Belt
+		                { 7, 236644}, -- Mourner's Handguards
+		                { 8, 236643}, -- Nightwatcher's Gloves
+		                { 9, 235879}, -- Nimble Links
+		                { 10, 235891}, -- Ol' Reliable
+		                { 11, 235876}, -- Sinner's Handguards
+		                { 12, 235872}, -- Stalker's Bands
+		                { 13, 235883}, -- Well Diver's Stumble
+			},
+		},
+	        { -- KCDarkRider
+			name = AL["Dark Rider"],
+			[SOD_DIFF] = {
+				{ 1, 235868}, -- Bulwark of Ire
+				{ 2, 235892}, -- Darkrider's Spine
+			},
+		},
+	},
+}
+
 data["Zul'Gurub"] = {
 	MapID = 1977,
 	InstanceID = 309,
